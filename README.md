@@ -46,7 +46,6 @@ The application follows RESTful API design principles and clean component-based 
 
 ```
 ├── client/
-│       ├── node_modules/
 │       ├── public/
 │       │   ├── index.html
 │       ├── src/
