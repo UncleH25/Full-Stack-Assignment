@@ -104,6 +104,8 @@ The application follows RESTful API design principles and clean component-based 
 
 ## ⚙️ Setup Instructions
 
+**IMPORTANT NOTE: Make sure Node.js (v16 or later) is installed.**
+
 ### 1️⃣ Clone the repository
 
 git clone <repo-url>
