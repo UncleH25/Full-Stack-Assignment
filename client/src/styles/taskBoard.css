@@ -1,0 +1,19 @@
+.task-board {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  min-height: 100vh;
+  background-color: #f4f6f9;
+  box-sizing: border-box;
+}
+
+.board-header {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.board-container {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
