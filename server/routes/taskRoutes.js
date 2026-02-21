@@ -10,16 +10,16 @@ const express = require('express');
 const router = express.Router();
 const taskController = require('../controllers/taskController.js');
 
-//Retrieve all tasks
+// Retrieve all tasks
 router.get('/', taskController.getAllTasks);
 
-//Create a new task
+// Create a new task
 router.post('/', taskController.createTask);
 
-//Update an existing task
+// Update an existing task
 router.put('/:id', taskController.updateTask);
 
-//Delete an existing task
+// Delete an existing task
 router.delete('/:id', taskController.deleteTask);
 
 module.exports = router;
